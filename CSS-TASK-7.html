@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-7</title>
+    <style>
+        
+          .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+            background-color:red;
+          }
+          
+          .inputs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            background-color: maroon;
+            padding: 20px;
+
+          }
+          .input input,.inputs select,.inputs textarea {
+            padding: 10px;
+            margin-top: 10px;
+            }
+          
+          .inputs .submit {
+            width: 100%;
+            padding: 8px 0;
+            font-size: 20px;
+            background-color:white;
+            border-radius: 5px;
+          }
+          
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="inputs">
+          <table>
+            <tr>
+              <td><label>Name:</label></td>
+              <td><input type="text" placeholder="your name"></td>
+            </tr>
+            <tr>
+              <td><label>Email:</label></td>
+              <td><input type="text" placeholder="your email"></td>
+            </tr>
+            <tr>
+              <td><label>Password:</label></td>
+              <td><input type="password"></td>
+            </tr>
+            <tr>
+              <td><label>Phone Number:</label></td>
+              <td><input type="number"></td>
+            </tr>
+            <tr>
+              <td><label>Gender:</label></td>
+              <td>Male: <input type="radio">
+                Female: <input type="radio">
+                Other: <input type="radio"></td>
+            </tr>
+            <tr>
+              <td><label>Language</label></td>
+              <td>
+                <select>
+                  <option>Select language</option>
+                  <option>English</option>
+                  <option>Hindi</option>
+                  <option>Telugu</option>
+                  <option>Tamil</option>
+                  <option>Kannada</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Zip Code:</label></td>
+              <td><input type="number"></td>
+            </tr>
+            <tr>
+              <td><label>About:</label></td>
+              <td><textarea placeholder="Write about yourself..."></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <br><br>
+      <hr>
+      <h3>Name:<span style="color:blue">Chintam Sravan Kumar</span></h3>
+      <h3>Reigstration Number: <span style="color:blue">21BCE7822</span></h3>
+      <h3>College Mail ID:<span style="color:blue">sravan.21bce7822@vitapstudent.ac.in</span></h3>
+      <h3>Course:<span style="color:blue">MERN FullStack Development</span></h3>
+      <h3>Slot:<span style="color:blue">Tue,Thu,Sat 10am-12pm</span></h3>
+</body>
+</html>
